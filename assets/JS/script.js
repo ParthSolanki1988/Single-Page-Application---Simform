@@ -47,3 +47,7 @@ function scrollService(){
 function scrollAbout(){
     location.href = "#aboutus";
 }
+
+function scrollFaqs(){
+    location.href = "#faqs";
+}

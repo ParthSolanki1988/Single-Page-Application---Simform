@@ -29,14 +29,19 @@
               <a class="nav-link" aria-current="page" onclick="scrollHome()">Home</a>
             </li>
             <li class="nav-item ms-4">
-              <a class="nav-link" onclick="scrollAbout()">About us</a>
+              <a class="nav-link" onclick="scrollService()">Services</a>
             </li>
             <li class="nav-item ms-4">
               <a class="nav-link" onclick="scrollImages()">Images</a>
             </li>
             <li class="nav-item ms-4">
-              <a class="nav-link" onclick="scrollService()">Services</a>
+              <a class="nav-link" onclick="scrollAbout()">About us</a>
             </li>
+            <li class="nav-item ms-4">
+              <a class="nav-link" onclick="scrollFaqs()">FAQ's</a>
+            </li>
+
+
           </ul>
           <ul class="navbar-nav mb-2 mb-lg-0">
             <li class="nav-item">
@@ -50,7 +55,7 @@
       </div>
     </nav>
 
-    
+
   </div>
   <div class="container home" id="home">
     <div class="row">
@@ -75,7 +80,7 @@
     <img class="p-4 img-fluid" src="./assets/images/boa.svg" alt="boa">
   </div>
 
-  
+
 
 
   <div class="container mt-5 mb-5" id="services">
@@ -164,15 +169,16 @@
   </div>
 
 
-  
+
 
 
 
   <div class="container" id="images">
     <div class="container text-center pt-5">
       <h1 class="display-1"><span class="display-1 color ms-3"><b>Images</b></h1>
-      <p>Image Slider using Javascript</p>
-    </div> 
+      <p>Image Slider using Javascript</p><br>
+      
+    </div>
     <section id="imgslider">
       <div class="container">
         <div class="imgSlider-container">
@@ -191,15 +197,35 @@
           <a class="next" onclick="plusSlides(1)"><i class="fa-solid fa-chevron-right"></i></a>
         </div>
       </div>
-    </section>
+    </section><br>
+    <div class="container d-flex justify-content-center">
+      <img src="./assets/images/imagesforimage.png" alt="" >
+    </div>
+
   </div>
 
 
   <div class="container text-center pt-5" id="aboutus">
-    <h1 class="display-1"><b>About</b><span class="display-1 color ms-3"><b>Us</b></span></h1>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet illum iusto ab sed mollitia perferendis
-      assumenda nihil sint explicabo totam dicta minima pariatur, vitae quas eos quasi adipisci veniam. Libero.
+    <h1 class="display-1"><b>About</b><span class="display-1 color ms-3"><b>Us</b></span></h1><br>
+
+    <h3 class=""><b>Team that Engineers your Next</b><span class="color ms-3"><b>Digital Product</b></span></h3><br>
+    <p class="d-flex justify-content-center">Nearly every organization will need to become a tech company in order to
+      compete tomorrow. Yes, even yours. At Simform, we are on a mission to help companies develop competitiveness and
+      agility using the software.
+    </p><br>
+    <p class="d-flex justify-content-center">We are a product engineering company with a mission to solve complex
+      software engineering problems. Founded in 2010, we have helped organizations ranging from Startups that went
+      public, to Fortune 500 companies, and progressive Enterprises.
+
+    </p><br>
+    <p class="d-flex justify-content-center">Our Product Innovation Center transforms your engineering from being
+      bottlenecks to growth drivers. We help you to identify and solve critical business challenges with proven
+      technology practices such as DevOps, cloud-native development, and quality engineering services. Our remote agile
+      teams of engineers immerse themselves in your project, maintaining your company culture and working in line with
+      your strategic goals.
     </p>
+    <img src="./assets/images/aboutus.png" alt="">
+
 
 
     <div class="container-fluid">
@@ -213,9 +239,9 @@
                   <h5 class="card-title h3">Parth Solanki</h5>
                   <br>
                   <span class="h6">Java</span>
-  
+
                 </div>
-                <ul >
+                <ul>
                   <li class="list-unstyled mt-sm-5">
                     <i class="fas fa-check-circle"></i><span class="ms-sm-3">Feedback of java app.</span>
                   </li>
@@ -228,11 +254,11 @@
                   <li class="list-unstyled">
                     <i class="fas fa-check-circle"></i><span class="ms-sm-3">Feedback of java app.</span>
                   </li>
-                 
-  
+
+
                 </ul>
               </div>
-  
+
               <div class="card-body text-center">
                 <button class="btn btn-outline-custom1 btn-lg  rounded-0 w-100">Request Demo</button>
               </div>
@@ -245,7 +271,7 @@
                   <h5 class="card-title h3">Arpit Panchal</h5>
                   <br>
                   <span class="h6">MERN</span>
-  
+
                 </div>
                 <ul>
                   <li class="list-unstyled mt-sm-5">
@@ -260,10 +286,10 @@
                   <li class="list-unstyled">
                     <i class="fas fa-check-circle"></i><span class="ms-sm-3">Feedback of react app.</span>
                   </li>
-                  
+
                 </ul>
               </div>
-  
+
               <div class="card-body text-center">
                 <button class="btn btn-outline-custom1 btn-lg  rounded-0 w-100">Request Demo</button>
               </div>
@@ -276,11 +302,11 @@
                   <h5 class="card-title h3">Mihir Parmar</h5>
                   <br>
                   <span class="h6">MEAN</span>
-  
+
                 </div>
                 <ul>
                   <li class="list-unstyled mt-sm-5">
-  
+
                     <i class="fas fa-check-circle"></i><span class="ms-sm-3">Feedback of AngularJS app.</span>
                   </li>
                   <li class="list-unstyled">
@@ -292,10 +318,10 @@
                   <li class="list-unstyled">
                     <i class="fas fa-check-circle"></i><span class="ms-sm-3">Feedback of AngularJS app.</span>
                   </li>
-                  
+
                 </ul>
               </div>
-  
+
               <div class="card-body text-center">
                 <button class="btn btn-outline-custom1 btn-lg rounded-0 w-100">Request Demo</button>
               </div>
@@ -304,15 +330,15 @@
         </div>
       </div>
     </div>
-  
+
   </div>
 
 
-  
 
 
 
-  <div class="container pt-5">
+
+  <div class="container pt-5" id="faqs">
     <h1 class="display-1 text-center"><span class="display-1 color ms-3"><b><b>FAQ</b></b></span><small
         class="active-radio"><b>s</b></small></h1>
 
@@ -396,7 +422,7 @@
 
 
         <section class="mb-4 p-sm-5">
-          <button class="btn btn-outline-light rounded-0 w-25 text-white ">Request Demo</button>
+          <button class="btn btn-outline-light rounded-0 w-25 text-black request bg-white">Request Demo</button>
         </section>
 
         <section class="">
