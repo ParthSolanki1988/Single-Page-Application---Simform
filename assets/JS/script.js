@@ -21,7 +21,7 @@ function plusSlides(n) {
     dispSlide(slider += n);
 }
 
-
+location.href = "#home";
 
 
 
